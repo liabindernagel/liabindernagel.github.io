@@ -31,7 +31,8 @@ viewer.scene.globe.enableLighting = true; // set lighting to true
 // load 3d Tile set of HFT from Cesium ION.
 var tileset = viewer.scene.primitives.add(
 	new Cesium.Cesium3DTileset({
-		url: Cesium.IonResource.fromAssetId(1398401),
+		//url: Cesium.IonResource.fromAssetId(1398401),  // high res assett is 1433449
+		url: Cesium.IonResource.fromAssetId(1433449),  // high res assett is 1433449
 	})
 );
 
