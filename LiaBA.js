@@ -29,11 +29,12 @@ Cesium.Camera.DEFAULT_VIEW_FACTOR = 0;
 viewer.scene.globe.enableLighting = true; // set lighting to true
 
 
-const osmBlds = viewer.scene.primitives.add(
+/*const osmBlds = viewer.scene.primitives.add(
   new Cesium.Cesium3DTileset({
     url: Cesium.IonResource.fromAssetId(96188),
   })
 );
+*/
 
 // load 3d Tile set of HFT from Cesium ION.
 var tileset = viewer.scene.primitives.add(
